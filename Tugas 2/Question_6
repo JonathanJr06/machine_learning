@@ -1,0 +1,10 @@
+import numpy as np
+
+# Mengatur seed untuk menghasilkan hasil acak yang sama setiap kali kode dijalankan (opsional)
+np.random.seed(0)
+
+# Membuat matriks dengan orde 3x30 dengan nilai elemen acak antara 1 hingga 5
+matriks = np.random.randint(1, 6, size=(3, 30))
+
+print("Matriks 3x30 dengan elemen acak dari 1 sampai 5:")
+print(matriks)
