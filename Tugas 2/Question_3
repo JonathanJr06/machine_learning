@@ -1,6 +1,5 @@
 #Matriks 3x2
 
-#Matriks 2x3
 import numpy as np
 
 n_array = np.array ([[2,2],
