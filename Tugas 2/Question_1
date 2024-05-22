@@ -1,0 +1,12 @@
+def run():
+                    nama = input("Jonathan Junior Christodany")
+                    nim = input("20210801388")
+                    jurusan = input("Teknik Informatika")
+                    perkuliahan = input("Machine Learning")
+
+                    print('Biodata Mahasiswa')
+                    print('Nama: ' +nama)
+                    print('Nim: ' +nim)
+                    print('Jurusan: ' +jurusan)
+                    print('Perkuliahan: ' +perkuliahan)
+run()

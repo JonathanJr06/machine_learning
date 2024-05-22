@@ -1,0 +1,16 @@
+#Matriks 3x2
+
+#Matriks 2x3
+import numpy as np
+
+n_array = np.array ([[2,2],
+                   [2,2],
+                   [2,2]])
+
+print("Matriks 3x2: ")
+print(n_array)
+
+#Menghitung determinan matriks
+det = np.linalg. det(n_array)
+print("/nDeterminan dari matriks 2x3: ")
+print(int(det))
