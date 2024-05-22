@@ -1,0 +1,12 @@
+import numpy as np
+
+# Membuat array dengan panjang elemen 32
+elemen = np.arange(32)
+
+# Membentuk array menjadi matriks dengan orde 4x8
+matriks = elemen.reshape(4, 8)
+
+print("Array dengan panjang elemen 32:")
+print(elemen)
+print("\nMatriks 4x8:")
+print(matriks)
